@@ -1,0 +1,26 @@
+{
+  "name": "hapi-template",
+  "version": "1.0.0",
+  "description": "hapi starter template",
+  "private": true,
+  "engines": {
+    "node": "~0.10.x",
+    "npm": "1.3.x"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "hapi": "~6.4.0",
+    "nconf": "~0.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "~1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ednapiranha/hapi-template.git"
+  },
+  "author": "Edna Piranha <jen@ednapiranha.com> (http://ednapiranha.com)",
+  "license": "BSD"
+}
