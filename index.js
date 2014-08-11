@@ -17,11 +17,6 @@ var routes = [
   }
 ];
 
-var db = level('./db', {
-  createIfMissing: true,
-  valueEncoding: 'json'
-});
-
 server.route(routes);
 
 server.start();
